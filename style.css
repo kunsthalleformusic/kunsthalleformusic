@@ -361,7 +361,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
 }
 .container{
-	max-width:1024px;
+	max-width:950px;
 }
 .gif{
 	text-align:left;
@@ -377,8 +377,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top: 10px;
 }
 .logo2{
-	width:10%;
-	padding-top: 10px;
+	width:35%;
+	padding-top: 40px;
 }
 
 /* = Colour
