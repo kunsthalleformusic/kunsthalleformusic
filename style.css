@@ -374,10 +374,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .logo{
 	width:40%;
+	padding-top: 10px;
 }
 .logo2{
 	width:10%;
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 /* = Colour
