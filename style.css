@@ -1,12 +1,12 @@
 /*-----------------------------------------------------------------------------------
-	    My Site
-        Built with Blocs
+	    Kunsthalle for Music
+			Built by Visuology.nl
 -----------------------------------------------------------------------------------*/
 
 body{
 	margin:0;
 	padding:0;
-    background:#FFF;
+    background:#f0f0f0;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -15,7 +15,20 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
-#page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
+#page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:##f0f0f0 url("img/pageload-spinner.gif") no-repeat center center;}
+
+/* = Font
+-------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'WebFont';
+  src: url('fonts/webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 
 /* = Blocs
 -------------------------------------------------------------- */
@@ -23,7 +36,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bloc{
 	width:100%;
 	clear:both;
-	background: 50% 50% no-repeat;
+	background: #f0f0f0;
 	padding:0 50px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -290,7 +303,7 @@ button{
 /* = Icons
 -------------------------------------------------------------- */
 .icon-md{
-	font-size:30px!important;
+	font-size:28px!important;
 }
 
 
@@ -306,7 +319,7 @@ button{
 	border-radius:29px 29px 0 0;
 }
 .panel-rd .panel-footer{
-	border-radius:0 0 29px 29px;
+	border-radius:0 0 2px 2px;
 }
 
 /* = Dividers
@@ -358,8 +371,14 @@ iframe{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family:"WebFont";
+	color: ##5f5f64
 }
+
+p {
+	font-size: 16px;
+}
+
 .container{
 	max-width:950px;
 }
@@ -387,7 +406,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Background colour styles */
 
 .bgc-white{
-	background-color:#ffffff;
+	background-color: #f0f0f0;
 }
 
 
