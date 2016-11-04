@@ -94,7 +94,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Sizes */
 
 .bloc-lg{
-	padding:100px 50px;
+	padding:50px 50px;
 }
 .bloc-md{
 	padding:25px;
@@ -626,16 +626,16 @@ p {
 	   height: 320px;
     }
 		.logo{
-			width:35%;
+			width:25%;
 			padding-top: 10px;
 		}
 		.logo2{
-			width:30%;
+			width:20%;
 			padding-top: 20px;
 		}
 
 		.logo3{
-			width:30%;
+			width:20%;
 			padding-top: 15px;
 		}
 }
