@@ -29,6 +29,47 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
        url('fonts/webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+/* = Responsive Image Index
+-------------------------------------------------------------- */
+
+.responsive-container {
+    position: block;
+    width: 100%;
+}
+
+.ri {
+    padding-top: 100%; /* forces 1:1 aspect ratio */
+}
+
+.img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+}
+
+.img-container:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.img-container img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.fade {
+        opacity:0.5;
+}
+.fade:hover {
+        opacity:1;
+}
 
 /* = Blocs
 -------------------------------------------------------------- */
@@ -56,10 +97,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	padding:100px 50px;
 }
 .bloc-md{
-	padding:50px;
+	padding:25px;
 }
 .bloc-sm{
-	padding:20px 50px;
+	padding:2px 50px;
 }
 
 
@@ -431,6 +472,7 @@ p {
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
     .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
+		img.ri{max-width: 90%;}
 }
 @media (max-width: 767px)
 {
