@@ -8,8 +8,8 @@ body{
 	padding:0;
     background:#f0f0f0;
     overflow-x:hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-oothing: antialiased;
+    -moz-osx-font-oothing: grayscale;
 }
 a:hover{text-decoration: none; cursor:pointer;}
 
@@ -99,7 +99,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bloc-md{
 	padding:25px;
 }
-.bloc-sm{
+.bloc-{
 	padding:2px 50px;
 }
 
@@ -434,12 +434,17 @@ p {
 .q{
 }
 .logo{
-	width:40%;
+	width:60%;
 	padding-top: 10px;
 }
 .logo2{
-	width:35%;
-	padding-top: 40px;
+	width:55%;
+	padding-top: 35px;
+}
+
+.logo3{
+	width:55%;
+	padding-top: 12px;
 }
 
 /* = Colour
@@ -620,4 +625,17 @@ p {
 	   width: 180px;
 	   height: 320px;
     }
+		.logo{
+			width:35%;
+			padding-top: 10px;
+		}
+		.logo2{
+			width:30%;
+			padding-top: 20px;
+		}
+
+		.logo3{
+			width:30%;
+			padding-top: 15px;
+		}
 }
