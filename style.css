@@ -65,10 +65,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 
 .fade {
-        opacity:0.5;
+        opacity:1;
 }
 .fade:hover {
-        opacity:1;
+        opacity:0.6;
 }
 
 /* = Blocs
