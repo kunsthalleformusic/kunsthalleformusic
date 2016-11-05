@@ -94,7 +94,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 /* Sizes */
 
 .bloc-lg{
-	padding:50px 50px;
+	padding:50px 10px;
 }
 .bloc-md{
 	padding:25px;
@@ -445,6 +445,16 @@ p {
 .logo3{
 	width:55%;
 	padding-top: 12px;
+}
+
+.img-with-text {
+    text-align: center;
+    width: auto;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
 }
 
 /* = Colour
