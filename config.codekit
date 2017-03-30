@@ -40,6 +40,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/exposition\/11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42426,
+		"inputAbbreviatedPath": "\/img\/exposition\/11.jpg",
+		"outputAbbreviatedPath": "\/img\/exposition\/11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/exposition\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46275,
+		"inputAbbreviatedPath": "\/img\/exposition\/2.jpg",
+		"outputAbbreviatedPath": "\/img\/exposition\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/exposition\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51816,
+		"inputAbbreviatedPath": "\/img\/exposition\/5.jpg",
+		"outputAbbreviatedPath": "\/img\/exposition\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/KFM_black_lighter.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -92,6 +125,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/spring_workshop_exhibition_1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/spring_workshop_exhibition_1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/spring_workshop_press_release_1.html": {
 		"fileType": 8192,
